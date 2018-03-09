@@ -1,0 +1,57 @@
+@media only screen and (max-width : 1280px) {
+    .innerStripe { width: 90%; }
+}
+
+
+@media only screen and (max-width : 768px) { 
+    .innerStripe { width: 100%; }
+    button { font-size: 13px; }
+    h1 { font-size: 170%; }
+    #colorDisplay { font-size: 150%; }
+    #message { font-size: 15px; }
+    #leftBtn { 
+        height: 100%; 
+        padding-left: 0;    
+    }
+    #rightBtn { height: 100%; }
+    
+}
+
+@media only screen and (max-width : 450px) {
+    button { font-size: 10px; }
+
+@media only screen and (max-width : 414px) {
+    #message { font-size: 13px; }
+    h1 { font-size: 150%; }
+    #colorDisplay { font-size: 130%; }
+}
+
+
+@media only screen and (max-width : 375px) {
+    button { font-size: 10px; }
+}
+
+
+
+
+@media only screen and (max-width : 320px) {
+    button { font-size: 9px; }
+    h1 { font-size: 130%; }
+    #colorDisplay { font-size: 110%; }
+}
+
+
+
+@media only screen and (max-width : 200px) {
+    button { font-size: 6px; }
+}
+
+
+
+
+
+
+
+
+
+
