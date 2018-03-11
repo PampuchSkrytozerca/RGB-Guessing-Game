@@ -2,6 +2,7 @@ body {
     background-color: #232323;
     margin: 0;
     font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
 }
 
 .container {
@@ -24,9 +25,15 @@ body {
 }
 
 #stripe {
-    text-align: center;
     background-color: #fff;
-    height: 30px;
+    height: 25px;
+    width: 100%;
+}
+
+.innerStripe {
+    width: 60%;
+    margin: 0 auto;
+    height: 100%;
 }
 
 button {
@@ -45,15 +52,37 @@ button {
     -moz-transition: background-color 0.6s;
 }
 
+/*
+#reset {
+    float: left;
+}
+*/
+
+.mode {
+    float: right;
+}
+
 button:hover {
     background-color: #4682b4;
     color: #fff;
 }
 
+#leftBtn {
+    float: left;
+    text-align: center;
+    padding-left: 15%;
+}
+
+#rightBtn {
+    float: right;
+    text-align: center;
+}
+
 #message {
     display: inline-block;
-    width: 25%;
+    width: 100%;
     font-size: 20px;
+    color: #000000;
 }
 
 h1 {
@@ -79,4 +108,5 @@ h1 {
 .small {
     width: 20%;
     padding-bottom: 20%;
+    margin: 2.5%;
 }

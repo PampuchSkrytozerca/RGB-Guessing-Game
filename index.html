@@ -2,9 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Color Game</title>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
     <link rel="stylesheet" href="RgbColorGame.css" type="text/css">
+    <link rel="stylesheet" href="queries.css" type="text/css">
+    
 </head>
 <body>
    <h1>The Great 
@@ -12,15 +15,22 @@
         <span id="colorDisplay">RGB</span>
         <br>
         Color Game
+        <br>
+        <span id="message">Choose Color</span>
    </h1>
    
    <div id="stripe">
-       <button id="reset">Change Colors</button>
-       <span id="message">Choose Color</span>
-       <button class="mode">Easy</button>
-       <button class="mode  selected">Medium</button>
-       <button class="mode">Hard</button>
-       <button class="mode hard">Very Hard</button>
+      <div class="innerStripe">
+           <div id="leftBtn">
+               <button id="reset">Change Colors</button>
+           </div>
+           <div id="rightBtn">
+                <button class="mode hard">Very Hard</button>
+                <button class="mode">Hard</button>
+                <button class="mode  selected">Medium</button>
+                <button class="mode">Easy</button> 
+           </div>
+      </div>
    </div>
    
    <div class="container">
