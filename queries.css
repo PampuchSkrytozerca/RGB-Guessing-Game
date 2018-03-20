@@ -19,6 +19,7 @@
 
 @media only screen and (max-width : 450px) {
     button { font-size: 10px; }
+}
 
 @media only screen and (max-width : 414px) {
     #message { font-size: 13px; }
